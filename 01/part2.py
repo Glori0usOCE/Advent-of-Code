@@ -40,7 +40,6 @@ for line in newTextLines:
     else:
         calibrationValue = tempLineArray[0]
         calibrationValue += tempLineArray[len(tempLineArray)-1]
-        -
     print("Calibration Value: " + calibrationValue)
     calibrationValues.append(calibrationValue)
 
